@@ -1,6 +1,6 @@
 import SwiftUI
 
-private struct TaskItem: Identifiable, Codable {
+private struct TaskItem: Identifiable, Codable, Equatable {
     var id: UUID
     var title: String
     var isCompleted: Bool
